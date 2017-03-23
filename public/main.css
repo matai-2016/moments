@@ -17,19 +17,19 @@ body {
 #login-button {
   max-height: 60px;
   float: right;
-  border: 3px solid black;
+  border: 3px solid #1b96fe;
   border-radius: 50%;
   position: relative;
   top: 20px;
 }
 
 #login-button:hover {
-  border: 5px solid black;
+  border: 5px solid #ff0042;
 }
 
 .moment-list {
   position: relative;
-  top: 20px;
+  top: 40px;
   height: 800px;
   /*border: 1px solid black;*/
 }
@@ -39,14 +39,16 @@ body {
   height: 50px;
   float: right;
   right: 10px;
-  background-color: #3B5998;
+  background-color: #1b96fe;
   width: 20%;
   position: relative;
   top: 5px;
+  border-style: none;
+  box-shadow: 1px 1px .5px #888888;
 }
 
 #add-button:hover {
-  box-shadow: 2px 2px 1px #888888;
+  box-shadow: 3px 3px 1.5px #888888;
 }
 
 .add-moment-space {
@@ -55,4 +57,8 @@ body {
   height: 60px;
   border: 2px solid #ededed;
   border-radius: 6px;
+}
+
+#moment {
+
 }
