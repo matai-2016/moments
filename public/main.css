@@ -15,7 +15,8 @@ body {
 }
 
 #login-button {
-  max-height: 90px;
+  max-height: 60px;
+  float: right;
   border: 3px solid black;
   border-radius: 50%;
   position: relative;
@@ -43,4 +44,9 @@ body {
 
 #add-button:hover {
   box-shadow: 2px 2px 1px #888888;
+}
+
+#add-moment-space {
+  background-color: white;
+  width: 100%
 }
