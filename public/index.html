@@ -2,10 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>React FTW!</title>
+  <title>Moments</title>
+  <link type="text/css" rel="stylesheet" href="normalize.css"/>
+  <link type="text/css" rel="stylesheet" href="skeleton.css"/>
+  <link type="text/css" rel="stylesheet" href="main.css"/>
 </head>
 <body>
-  <div id="app"></div>
+  <!-- <div id="app"> -->
+    <div class="container">
+      <div class="header">
+        <div class="row">
+          <div class="ten columns">
+            <div class="logo">
+              <img id="logo-pic" src="images/logo-big.png" alt="Logo">
+            </div>
+          </div>
+          <div class="two columns">
+            <div class="login-button">
+              <img id="login-button" src="images/login-button-profile.png" alt="Login button">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="momentlist"></div>
+    </div>
+  <!-- </div> -->
 
   <script src="bundle.js"></script>
 </body>
