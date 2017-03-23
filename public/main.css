@@ -3,22 +3,44 @@ body {
 }
 
 .header {
+
   height: 200px;
+
 }
 
 #logo-pic {
   position: relative;
   left: 30px;
+  top: 20px;
 }
 
 #login-button {
-  max-height: 100px;
+  max-height: 90px;
   border: 3px solid black;
   border-radius: 50%;
   position: relative;
-  top: 30px;
+  top: 20px;
 }
 
 #login-button:hover {
   border: 5px solid black;
+}
+
+.moment-list {
+  position: relative;
+  top: 20px;
+  height: 800px;
+  border: 1px solid black;
+}
+
+#add-button {
+  color: white;
+  height: 50px;
+  float: right;
+  background-color: #3B5998;
+  width: 20%;
+}
+
+#add-button:hover {
+  box-shadow: 2px 2px 1px #888888;
 }
