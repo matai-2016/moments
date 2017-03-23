@@ -1,15 +1,26 @@
-# A starter webpack project for React
+# Moments
 
-This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, consider this approach:
+Moments allows team members to send quick expressions, moments, to other team members. Each moment is public so the team can celebrate their moments together.
 
-* Fork this repo
-* Rename your repo according to the app you're building
+
+## Setup
 
 ```sh
-git clone https://github.com/dev-academy-challenges/[your-app].git
-cd [your-app] && npm install
+git clone https://github.com/matai-2016/moments.git
+cd moments && npm install
+npm run knex migrate:latest
+npm run knex seed:run
+npm test
+npm start
+open http://localhost:3000
 ```
 
-To start the development server with a watcher that refreshes your browser, run `npm start`. The assets built by webpack are placed in `server/static`. This folder is defined as a static folder in an Express.js server that can be started with `npm run server`.
+## Data model
 
-Additional components should be placed in `client/components`.
+![Data model of Moments](./data-model.jpg)
+
+
+## Initial design
+
+![Initial design](./initial-design.jpg)
+
