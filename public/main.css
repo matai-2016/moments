@@ -25,3 +25,22 @@ body {
 #login-button:hover {
   border: 5px solid black;
 }
+
+.moment-list {
+  position: relative;
+  top: 20px;
+  height: 800px;
+  border: 1px solid black;
+}
+
+#add-button {
+  color: white;
+  height: 50px;
+  float: right;
+  background-color: #3B5998;
+  width: 20%;
+}
+
+#add-button:hover {
+  box-shadow: 2px 2px 1px #888888;
+}
