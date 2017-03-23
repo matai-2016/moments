@@ -10,7 +10,7 @@ git clone https://github.com/matai-2016/moments.git
 cd moments && npm install
 npm run knex migrate:latest
 npm run knex seed:run
-nmp test
+npm test
 npm start
 open http://localhost:3000
 ```
