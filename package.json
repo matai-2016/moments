@@ -9,8 +9,7 @@
     "dev": "nodemon index",
     "test": "tape -r babel-register 'test/**/*.test.js' | tap-diff",
     "watch": "nodemon -e js,jsx -x npm test",
-    "knex": "knex",
-    "postinstall": "knex migrate:latest"
+    "knex": "knex"
   },
   "babel": {
     "presets": [
