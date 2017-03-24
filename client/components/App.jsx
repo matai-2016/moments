@@ -1,12 +1,11 @@
 import React from 'react'
 
-import api from '../api'
 import ErrorMessage from './ErrorMessage'
-//--Import rest of components
+import Home from './Home'
 
 class App extends React.Component {
   constructor (props) {
-    super (props)
+    super(props)
     this.state = {
       moments: null
     }
@@ -16,6 +15,9 @@ class App extends React.Component {
     return (
       <div className='app'>
         <ErrorMessage error={this.state.error} />
+        <div className='container'>
+          <Home />
+        </div>
       </div>
     )
   }
