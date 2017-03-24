@@ -16,7 +16,6 @@ class App extends React.Component {
     return (
       <div className='app'>
         <ErrorMessage error={this.state.error} />
-        //<div onClick={this.handleClick.bind(this)}></div>
       </div>
     )
   }
