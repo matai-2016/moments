@@ -9,7 +9,11 @@ module.exports = {
 }
 
 function getMoments () {
-  return knex ('moments')
+  return knex('moments')
+      .join('images', 'moments.image_id', '=', 'images.id')
+      .join('people as sender', 'moments.sender_id', '=', 'sender.id')
+      .join('people as recipient', 'moments.recipient_id', '=', 'recipient.id')
+      .select('images.url as imageUrl', 'moments.id as momentId', 'sender.profile_image as senderUrl', 'recipient.profile_image as recipientUrl')
 }
 
 function getImages () {
